@@ -1,0 +1,6 @@
+framework module Pods_MIT_DTD {
+  umbrella header "Pods-MIT DTD-umbrella.h"
+
+  export *
+  module * { export * }
+}

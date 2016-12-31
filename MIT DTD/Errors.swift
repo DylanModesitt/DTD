@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+import Foundation
+import UIKit
+
+enum ErrorTypes {
+    case SignInFailedError
+}
+
+struct Errors {
+    
+    static func presentErrorView(errorMessage: String) {
+        let view = UIAlertView.simpleAlert(withTitle: "Error", andMessage: errorMessage)
+        view.show()
+    }
+    
+}

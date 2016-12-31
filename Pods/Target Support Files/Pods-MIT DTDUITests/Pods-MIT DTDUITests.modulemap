@@ -1,0 +1,6 @@
+framework module Pods_MIT_DTDUITests {
+  umbrella header "Pods-MIT DTDUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

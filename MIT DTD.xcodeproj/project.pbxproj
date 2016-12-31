@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0114CB640D3F65022F01EC92 /* Pods_MIT_DTDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B80B361284F69BCA6A8A96 /* Pods_MIT_DTDTests.framework */; };
+		6FA7D9141A42F58091C57F8F /* Pods_MIT_DTD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 026F77945A77AC3A693B9559 /* Pods_MIT_DTD.framework */; };
+		ADB49EA61FE5E0F33DD821F2 /* Pods_MIT_DTDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E638F4C8F7C86BD29EC897D2 /* Pods_MIT_DTDUITests.framework */; };
 		C1D1B5881E184B7600CF74C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5871E184B7600CF74C2 /* AppDelegate.swift */; };
-		C1D1B58A1E184B7600CF74C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5891E184B7600CF74C2 /* ViewController.swift */; };
 		C1D1B58D1E184B7600CF74C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D1B58B1E184B7600CF74C2 /* Main.storyboard */; };
 		C1D1B5901E184B7600CF74C2 /* MIT_DTD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B58E1E184B7600CF74C2 /* MIT_DTD.xcdatamodeld */; };
 		C1D1B5921E184B7600CF74C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D1B5911E184B7600CF74C2 /* Assets.xcassets */; };
 		C1D1B5951E184B7600CF74C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D1B5931E184B7600CF74C2 /* LaunchScreen.storyboard */; };
 		C1D1B5A01E184B7600CF74C2 /* MIT_DTDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B59F1E184B7600CF74C2 /* MIT_DTDTests.swift */; };
 		C1D1B5AB1E184B7600CF74C2 /* MIT_DTDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5AA1E184B7600CF74C2 /* MIT_DTDUITests.swift */; };
+		C1D1B5B91E18502100CF74C2 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5B81E18502100CF74C2 /* Protocols.swift */; };
+		C1D1B5BB1E18508500CF74C2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5BA1E18508500CF74C2 /* Extensions.swift */; };
+		C1D1B5BF1E1850BC00CF74C2 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5BE1E1850BC00CF74C2 /* Errors.swift */; };
+		C1D1B5C31E1854B100CF74C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1D1B5C21E1854B100CF74C2 /* GoogleService-Info.plist */; };
+		C1D1B5C51E18561200CF74C2 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5C41E18561200CF74C2 /* SignInViewController.swift */; };
+		C1D1B5C71E185A4400CF74C2 /* MenuViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5C61E185A4400CF74C2 /* MenuViewControllers.swift */; };
+		C1D1B5C91E185AF600CF74C2 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5C81E185AF600CF74C2 /* MenuTableViewController.swift */; };
+		C1D1B5CB1E185BEE00CF74C2 /* OwnerControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5CA1E185BEE00CF74C2 /* OwnerControllers.swift */; };
+		C1D1B5CD1E185CCE00CF74C2 /* PartiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D1B5CC1E185CCE00CF74C2 /* PartiesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		026F77945A77AC3A693B9559 /* Pods_MIT_DTD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MIT_DTD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B80B361284F69BCA6A8A96 /* Pods_MIT_DTDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MIT_DTDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		086418D5189F111013A06778 /* Pods-MIT DTD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIT DTD.release.xcconfig"; path = "Pods/Target Support Files/Pods-MIT DTD/Pods-MIT DTD.release.xcconfig"; sourceTree = "<group>"; };
+		251F0BEDDA24F33A5E1A5DD3 /* Pods-MIT DTDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIT DTDUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MIT DTDUITests/Pods-MIT DTDUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		36DCBA1FFE0E4A4ADF130666 /* Pods-MIT DTDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIT DTDTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MIT DTDTests/Pods-MIT DTDTests.release.xcconfig"; sourceTree = "<group>"; };
+		5DFCCD830ECC464BD06E1334 /* Pods-MIT DTDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIT DTDTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MIT DTDTests/Pods-MIT DTDTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A205512B3F43A02913EB332B /* Pods-MIT DTD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIT DTD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MIT DTD/Pods-MIT DTD.debug.xcconfig"; sourceTree = "<group>"; };
 		C1D1B5841E184B7600CF74C2 /* MIT DTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MIT DTD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D1B5871E184B7600CF74C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C1D1B5891E184B7600CF74C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1D1B58C1E184B7600CF74C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1D1B58F1E184B7600CF74C2 /* MIT_DTD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MIT_DTD.xcdatamodel; sourceTree = "<group>"; };
 		C1D1B5911E184B7600CF74C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +66,17 @@
 		C1D1B5A61E184B7600CF74C2 /* MIT DTDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MIT DTDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D1B5AA1E184B7600CF74C2 /* MIT_DTDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIT_DTDUITests.swift; sourceTree = "<group>"; };
 		C1D1B5AC1E184B7600CF74C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D1B5B81E18502100CF74C2 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		C1D1B5BA1E18508500CF74C2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C1D1B5BE1E1850BC00CF74C2 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		C1D1B5C21E1854B100CF74C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1D1B5C41E18561200CF74C2 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		C1D1B5C61E185A4400CF74C2 /* MenuViewControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewControllers.swift; sourceTree = "<group>"; };
+		C1D1B5C81E185AF600CF74C2 /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		C1D1B5CA1E185BEE00CF74C2 /* OwnerControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnerControllers.swift; sourceTree = "<group>"; };
+		C1D1B5CC1E185CCE00CF74C2 /* PartiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartiesViewController.swift; sourceTree = "<group>"; };
+		DF16D49605C1CE112BB76580 /* Pods-MIT DTDUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MIT DTDUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MIT DTDUITests/Pods-MIT DTDUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E638F4C8F7C86BD29EC897D2 /* Pods_MIT_DTDUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MIT_DTDUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA7D9141A42F58091C57F8F /* Pods_MIT_DTD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0114CB640D3F65022F01EC92 /* Pods_MIT_DTDTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB49EA61FE5E0F33DD821F2 /* Pods_MIT_DTDUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		517489262071592CD427640D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				026F77945A77AC3A693B9559 /* Pods_MIT_DTD.framework */,
+				04B80B361284F69BCA6A8A96 /* Pods_MIT_DTDTests.framework */,
+				E638F4C8F7C86BD29EC897D2 /* Pods_MIT_DTDUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C9F9EF6C47313DABBC3E9E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A205512B3F43A02913EB332B /* Pods-MIT DTD.debug.xcconfig */,
+				086418D5189F111013A06778 /* Pods-MIT DTD.release.xcconfig */,
+				5DFCCD830ECC464BD06E1334 /* Pods-MIT DTDTests.debug.xcconfig */,
+				36DCBA1FFE0E4A4ADF130666 /* Pods-MIT DTDTests.release.xcconfig */,
+				251F0BEDDA24F33A5E1A5DD3 /* Pods-MIT DTDUITests.debug.xcconfig */,
+				DF16D49605C1CE112BB76580 /* Pods-MIT DTDUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C1D1B57B1E184B7600CF74C2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +137,8 @@
 				C1D1B59E1E184B7600CF74C2 /* MIT DTDTests */,
 				C1D1B5A91E184B7600CF74C2 /* MIT DTDUITests */,
 				C1D1B5851E184B7600CF74C2 /* Products */,
+				5C9F9EF6C47313DABBC3E9E5 /* Pods */,
+				517489262071592CD427640D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +155,12 @@
 		C1D1B5861E184B7600CF74C2 /* MIT DTD */ = {
 			isa = PBXGroup;
 			children = (
-				C1D1B5871E184B7600CF74C2 /* AppDelegate.swift */,
-				C1D1B5891E184B7600CF74C2 /* ViewController.swift */,
 				C1D1B58B1E184B7600CF74C2 /* Main.storyboard */,
-				C1D1B5911E184B7600CF74C2 /* Assets.xcassets */,
-				C1D1B5931E184B7600CF74C2 /* LaunchScreen.storyboard */,
-				C1D1B5961E184B7600CF74C2 /* Info.plist */,
-				C1D1B58E1E184B7600CF74C2 /* MIT_DTD.xcdatamodeld */,
+				C1D1B5CC1E185CCE00CF74C2 /* PartiesViewController.swift */,
+				C1D1B5C41E18561200CF74C2 /* SignInViewController.swift */,
+				C1D1B5CE1E18699800CF74C2 /* Menu */,
+				C1D1B5BC1E18509F00CF74C2 /* Cosmic */,
+				C1D1B5BD1E1850AF00CF74C2 /* Supporting FIles */,
 			);
 			path = "MIT DTD";
 			sourceTree = "<group>";
@@ -128,6 +183,39 @@
 			path = "MIT DTDUITests";
 			sourceTree = "<group>";
 		};
+		C1D1B5BC1E18509F00CF74C2 /* Cosmic */ = {
+			isa = PBXGroup;
+			children = (
+				C1D1B5B81E18502100CF74C2 /* Protocols.swift */,
+				C1D1B5BE1E1850BC00CF74C2 /* Errors.swift */,
+				C1D1B5BA1E18508500CF74C2 /* Extensions.swift */,
+				C1D1B5CA1E185BEE00CF74C2 /* OwnerControllers.swift */,
+			);
+			name = Cosmic;
+			sourceTree = "<group>";
+		};
+		C1D1B5BD1E1850AF00CF74C2 /* Supporting FIles */ = {
+			isa = PBXGroup;
+			children = (
+				C1D1B5871E184B7600CF74C2 /* AppDelegate.swift */,
+				C1D1B5911E184B7600CF74C2 /* Assets.xcassets */,
+				C1D1B5931E184B7600CF74C2 /* LaunchScreen.storyboard */,
+				C1D1B5961E184B7600CF74C2 /* Info.plist */,
+				C1D1B5C21E1854B100CF74C2 /* GoogleService-Info.plist */,
+				C1D1B58E1E184B7600CF74C2 /* MIT_DTD.xcdatamodeld */,
+			);
+			name = "Supporting FIles";
+			sourceTree = "<group>";
+		};
+		C1D1B5CE1E18699800CF74C2 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C1D1B5C61E185A4400CF74C2 /* MenuViewControllers.swift */,
+				C1D1B5C81E185AF600CF74C2 /* MenuTableViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1D1B5AF1E184B7600CF74C2 /* Build configuration list for PBXNativeTarget "MIT DTD" */;
 			buildPhases = (
+				1A6BB1E369B159187259766F /* [CP] Check Pods Manifest.lock */,
 				C1D1B5801E184B7600CF74C2 /* Sources */,
 				C1D1B5811E184B7600CF74C2 /* Frameworks */,
 				C1D1B5821E184B7600CF74C2 /* Resources */,
+				FA818BD9A20105DD0F167683 /* [CP] Embed Pods Frameworks */,
+				89249927CF9A938454DE0F56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1D1B5B21E184B7600CF74C2 /* Build configuration list for PBXNativeTarget "MIT DTDTests" */;
 			buildPhases = (
+				C580985BF64384311871BD9B /* [CP] Check Pods Manifest.lock */,
 				C1D1B5971E184B7600CF74C2 /* Sources */,
 				C1D1B5981E184B7600CF74C2 /* Frameworks */,
 				C1D1B5991E184B7600CF74C2 /* Resources */,
+				3F6D1E8991BF4CF316321B22 /* [CP] Embed Pods Frameworks */,
+				41E657B098CF02157276020F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1D1B5B51E184B7600CF74C2 /* Build configuration list for PBXNativeTarget "MIT DTDUITests" */;
 			buildPhases = (
+				BA73BFA375DA6D9D0E7008DB /* [CP] Check Pods Manifest.lock */,
 				C1D1B5A21E184B7600CF74C2 /* Sources */,
 				C1D1B5A31E184B7600CF74C2 /* Frameworks */,
 				C1D1B5A41E184B7600CF74C2 /* Resources */,
+				11BC94BBC6F904FEB0312CA4 /* [CP] Embed Pods Frameworks */,
+				1A7F57F199C0EDBAA306B5A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1D1B5951E184B7600CF74C2 /* LaunchScreen.storyboard in Resources */,
+				C1D1B5C31E1854B100CF74C2 /* GoogleService-Info.plist in Resources */,
 				C1D1B5921E184B7600CF74C2 /* Assets.xcassets in Resources */,
 				C1D1B58D1E184B7600CF74C2 /* Main.storyboard in Resources */,
 			);
@@ -260,14 +358,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11BC94BBC6F904FEB0312CA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MIT DTDUITests/Pods-MIT DTDUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A6BB1E369B159187259766F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A7F57F199C0EDBAA306B5A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MIT DTDUITests/Pods-MIT DTDUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F6D1E8991BF4CF316321B22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MIT DTDTests/Pods-MIT DTDTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41E657B098CF02157276020F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MIT DTDTests/Pods-MIT DTDTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89249927CF9A938454DE0F56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MIT DTD/Pods-MIT DTD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA73BFA375DA6D9D0E7008DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C580985BF64384311871BD9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA818BD9A20105DD0F167683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MIT DTD/Pods-MIT DTD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1D1B5801E184B7600CF74C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D1B58A1E184B7600CF74C2 /* ViewController.swift in Sources */,
+				C1D1B5C51E18561200CF74C2 /* SignInViewController.swift in Sources */,
+				C1D1B5BB1E18508500CF74C2 /* Extensions.swift in Sources */,
+				C1D1B5CB1E185BEE00CF74C2 /* OwnerControllers.swift in Sources */,
+				C1D1B5C71E185A4400CF74C2 /* MenuViewControllers.swift in Sources */,
+				C1D1B5CD1E185CCE00CF74C2 /* PartiesViewController.swift in Sources */,
 				C1D1B5901E184B7600CF74C2 /* MIT_DTD.xcdatamodeld in Sources */,
+				C1D1B5C91E185AF600CF74C2 /* MenuTableViewController.swift in Sources */,
 				C1D1B5881E184B7600CF74C2 /* AppDelegate.swift in Sources */,
+				C1D1B5BF1E1850BC00CF74C2 /* Errors.swift in Sources */,
+				C1D1B5B91E18502100CF74C2 /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,10 +660,12 @@
 		};
 		C1D1B5B01E184B7600CF74C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A205512B3F43A02913EB332B /* Pods-MIT DTD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AWTQ86CKW7;
 				INFOPLIST_FILE = "MIT DTD/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanmodesitt.MIT-DTD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,10 +675,12 @@
 		};
 		C1D1B5B11E184B7600CF74C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 086418D5189F111013A06778 /* Pods-MIT DTD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AWTQ86CKW7;
 				INFOPLIST_FILE = "MIT DTD/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dylanmodesitt.MIT-DTD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,6 +690,7 @@
 		};
 		C1D1B5B31E184B7600CF74C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFCCD830ECC464BD06E1334 /* Pods-MIT DTDTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +706,7 @@
 		};
 		C1D1B5B41E184B7600CF74C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DCBA1FFE0E4A4ADF130666 /* Pods-MIT DTDTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +722,7 @@
 		};
 		C1D1B5B61E184B7600CF74C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251F0BEDDA24F33A5E1A5DD3 /* Pods-MIT DTDUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = AWTQ86CKW7;
@@ -487,6 +737,7 @@
 		};
 		C1D1B5B71E184B7600CF74C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF16D49605C1CE112BB76580 /* Pods-MIT DTDUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = AWTQ86CKW7;
@@ -518,6 +769,7 @@
 				C1D1B5B11E184B7600CF74C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1D1B5B21E184B7600CF74C2 /* Build configuration list for PBXNativeTarget "MIT DTDTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +778,7 @@
 				C1D1B5B41E184B7600CF74C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1D1B5B51E184B7600CF74C2 /* Build configuration list for PBXNativeTarget "MIT DTDUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +787,7 @@
 				C1D1B5B71E184B7600CF74C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
